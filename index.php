@@ -6,6 +6,51 @@ $user_avatar = 'img/user.jpg';
 
 $category = ['Доски и лыжи','Крепления','Ботинки','Одежда','Инструменты','Разное']
 
+
+DC Ply Mens 20 16/ 20 17 Snowboard
+Крепления Union Cont act Рго 2015 года размер L/ XL
+Ботинки для сноуборда DC Mutiny Charocal
+Куртка для сноуборда ОС M ut iny Charoca l
+Маска Oakley Сапору
+
+$items_list = [
+    [
+        'title' => '2014 Rossignol District Snowboard',
+        'category' => 'Доски и лыжи',
+        'price' => '10999',
+        'img' => 'img/lot-1.jpg'
+    ],
+    [
+        'title' => 'DC Ply Mens 2016/ 2017 Snowboard',
+        'category' => 'Доски и лыжи',
+        'price' => '159999',
+        'img' => 'img/lot-2.jpg'
+    ],
+    [
+        'title' => 'Крепления Union Cont act Рго 2015 года размер L/ XL',
+        'category' => 'Крепления',
+        'price' => '8000',
+        'img' => 'img/lot-3.jpg'
+    ],
+    [
+        'title' => 'Ботинки для сноуборда DC Mutiny Charocal',
+        'category' => 'Ботинки',
+        'price' => '10999',
+        'img' => 'img/lot-4.jpg'
+    ],
+    [
+        'title' => 'Куртка для сноуборда ОС M ut iny Charoca l',
+        'category' => 'Одежда',
+        'price' => '7500',
+        'img' => 'img/lot-5.jpg'
+    ],
+    [
+        'title' => 'Маска Oakley Сапору',
+        'category' => 'Разное',
+        'price' => '5400',
+        'img' => 'img/lot-6.jpg'
+    ],
+]
 ?>
 <!DOCTYPE html>
 <html lang="ru">
