@@ -4,14 +4,7 @@ $is_auth = (bool)random_int(0, 1);
 $user_name = 'Константин';
 $user_avatar = 'img/user.jpg';
 
-$category = ['Доски и лыжи','Крепления','Ботинки','Одежда','Инструменты','Разное']
-
-
-DC Ply Mens 20 16/ 20 17 Snowboard
-Крепления Union Cont act Рго 2015 года размер L/ XL
-Ботинки для сноуборда DC Mutiny Charocal
-Куртка для сноуборда ОС M ut iny Charoca l
-Маска Oakley Сапору
+$categoryes = ['Доски и лыжи','Крепления','Ботинки','Одежда','Инструменты','Разное'];
 
 $items_list = [
     [
@@ -50,7 +43,7 @@ $items_list = [
         'price' => '5400',
         'img' => 'img/lot-6.jpg'
     ],
-]
+];
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -161,24 +154,11 @@ $items_list = [
 <footer class="main-footer">
     <nav class="nav">
         <ul class="nav__list container">
-            <li class="nav__item">
-                <a href="all-lots.html">Доски и лыжи</a>
-            </li>
-            <li class="nav__item">
-                <a href="all-lots.html">Крепления</a>
-            </li>
-            <li class="nav__item">
-                <a href="all-lots.html">Ботинки</a>
-            </li>
-            <li class="nav__item">
-                <a href="all-lots.html">Одежда</a>
-            </li>
-            <li class="nav__item">
-                <a href="all-lots.html">Инструменты</a>
-            </li>
-            <li class="nav__item">
-                <a href="all-lots.html">Разное</a>
-            </li>
+            <?php foreach ($categoryes as $category) :?>
+                <li class="nav__item">
+                    <a href="all-lots.html"><?=$category?></a>
+                </li>
+            <?php endforeach; ?>
         </ul>
     </nav>
     <div class="main-footer__bottom container">
